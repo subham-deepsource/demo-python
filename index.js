@@ -7,8 +7,8 @@ const app = express(); // Sensitive
 
 
 app.use(
-  helmet.expectCt({
-    enforce: false // Sensitive. It should be true
+helmet.expectCt({
+    enforce:         false // Sensitive. It should be true
   })
 )
 
