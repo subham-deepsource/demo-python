@@ -24,5 +24,9 @@ name = "isort"
 enabled = true
 
 [[transformers]]
+name = "yapf"
+enabled = true
+
+[[transformers]]
 name = "standardjs"
 enabled = true
