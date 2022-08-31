@@ -1,13 +1,5 @@
 version = 1
 
-test_patterns = ["tests/*"]
-
-exclude_patterns = [
-  "foo.py",
-  "foo/bar*.py",
-  "baz.py"
-]
-
 [[analyzers]]
 name = "python"
 enabled = true
@@ -16,5 +8,13 @@ enabled = true
   runtime_version = "3.x.x"
 
 [[analyzers]]
-name = "secrets"
+name = "javascript"
+enabled = true
+
+[[transformers]]
+name = "black"
+enabled = true
+
+[[transformers]]
+name = "prettier"
 enabled = true
