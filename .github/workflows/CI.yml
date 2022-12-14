@@ -36,3 +36,4 @@ jobs:
         key: python
         coverage-file: coverage.xml
         dsn: ${{ secrets.DEEPSOURCE_DSN }}
+        fail_ci_on_error: true
