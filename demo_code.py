@@ -42,6 +42,7 @@ class RandomNumberGenerator:
         assert all([isinstance(i, int) for i in min_max])
         return random.randint(*min_max)
 
+    
 
 class ImaginaryNumber:
     """Class to represent an imaginary number."""
