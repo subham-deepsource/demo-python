@@ -12,7 +12,6 @@
   DeepSource helps you ship good quality code.
 </p>
 
-
 </p>
 
 ---
